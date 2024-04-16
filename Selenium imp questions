@@ -1,0 +1,21 @@
+Selenium Interview Questions & Answers:
+
+1:Handling Windows and Tabs: Use WebDriver.getWindowHandles() to get window handles and switch between them using WebDriver.switchTo().window(handle).
+2:Handling Iframes: Use WebDriver.switchTo().frame() to switch to the iframe by index, name, or WebElement.
+3:Diff between FindElement and FindElements: FindElement returns a single WebElement, FindElements returns a list of WebElements.
+4:Different Locators: Locators include ID, Name, Class Name, Tag Name, Link Text, Partial Link Text, CSS Selector, and XPath.
+5:Diff Waits in Selenium: Implicit wait waits for all elements, while explicit wait waits for a specific condition. Implicit wait is set once for the entire session, explicit wait is set for specific conditions and elements.
+6:Handling Dynamic Elements: Use WebDriverWait with ExpectedConditions to wait for dynamic elements to be present, clickable, or visible.
+7:Exceptions: Common exceptions include NoSuchElementException, TimeoutException, StaleElementReferenceException, ElementNotInteractableException.
+8:Diff between driver.close() and driver.quit(): driver.close() closes the current window/tab, driver.quit() closes the entire browser session.
+9:Diff Assertions: assert.assertEquals() compares two values, assertTrue() checks if a condition is true.
+10:Launch Firefox Browser: WebDriver driver = new FirefoxDriver();
+11:Navigation Commands: Commands include navigate().to(), navigate().back(), navigate().forward(), navigate().refresh().
+12:Mouse Actions: Use Actions class for mouse actions like moveToElement(), click(), contextClick(), dragAndDrop().
+13:Handling Alerts: Use WebDriver.switchTo().alert() to switch to the alert and accept(), dismiss() or getText() as needed.
+14:Check if Element is Displayed: Use WebElement.isDisplayed() to check if an element is displayed on the screen.
+15:Page Object Model (POM): POM is a design pattern where each web page is represented as a Java class, making code more maintainable and reusable.
+16:Page Factory: Page Factory is an extension of POM, where elements are initialized using @FindBy annotations.
+17:Desired Capabilities: Used to specify browser properties and configurations for WebDriver sessions, especially useful for remote execution and Selenium Grid.
+
+Feel free to expand on the answers provided and share your valuable insights, experiences, and tips in the comments section below!
